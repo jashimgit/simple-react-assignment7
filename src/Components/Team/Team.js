@@ -1,9 +1,9 @@
-import React  from 'react';
+import React from 'react';
 
 
 const Team = (props) => {
     const teamPlayer = props.team;
-    
+
 
 
     return (
@@ -11,12 +11,23 @@ const Team = (props) => {
             <div className="card-body">
                 <h4>My Team</h4>
                 <p>Player Added : {teamPlayer.length}</p>
+                <p>Total Salary : {teamPlayer.salary}</p>
                 <hr></hr>
-                <ul>
+                <table className="table table-bordered">
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Salary</th>
+                    </tr>
+
                     {
-                        teamPlayer.map(member => <li>{member.name}</li>)
+                        teamPlayer.map(member =>
+                            <tr>
+                                <td>{member.name}</td>
+                                <td>{member.salary}</td>
+                            </tr>
+                        )
                     }
-                </ul>
+                </table>
             </div>
         </div>
 

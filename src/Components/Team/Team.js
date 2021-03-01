@@ -1,20 +1,20 @@
 import React from 'react';
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 const Team = (props) => {
     const teamPlayer = props.team;
     let totalSalary = 0;
     for (let i = 0; i < teamPlayer.length; i++) {
         const salary = teamPlayer[i].salary;
-        totalSalary = salary+ totalSalary;
+        totalSalary = salary + totalSalary;
     }
-    
+
     return (
         <div className="card">
             <div className="card-body">
-                <h4>My Team</h4>
-                <p>Player Added : {teamPlayer.length}</p>
-                <p>Total Salary :  {totalSalary}</p>
+                <h4>My IPL Team</h4>
+                <p>Player Added :<b> {teamPlayer.length}</b></p>
+                <p>Total Salary :<b> <FontAwesomeIcon icon={faRupeeSign} /> {totalSalary}</b></p>
                 <hr></hr>
                 <table className="table table-bordered">
                     <thead>
@@ -26,7 +26,7 @@ const Team = (props) => {
                     <tbody>
 
                         {
-                            
+
                             teamPlayer.map(member =>
 
                                 <tr>

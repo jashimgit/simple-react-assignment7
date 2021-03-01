@@ -6,15 +6,14 @@ import Team from '../Team/Team';
 const Players = (props) => {
 	const player = props.players;
 	const [team, setTeam] = useState([]);
-	const [salary, setSalary]= useState([]);
+	
 
 	const addPlayerBtn = (player) => {
 		// console.log(player);
 		const myTeam = [...team, player];
 		setTeam(myTeam);
 		// console.log(team);
-		const totalSalary = [...salary, player.salary];
-		setSalary(totalSalary);
+		
 	}
 	
 	return (
@@ -36,7 +35,7 @@ const Players = (props) => {
 				</div>
 
 				<div className="col-md-4 mt-3">
-					<Team team={team} salary={salary}></Team>
+					<Team team={team}></Team>
 				</div>
 			</div>
 		</div>

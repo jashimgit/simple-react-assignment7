@@ -8,9 +8,6 @@ import Players from './Components/Players/Players';
 function App() {
   const [players, setPlayers] = useState([]);
 
-
-
-
   useEffect(() => {
     setPlayers(playersData);
 

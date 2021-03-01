@@ -1,10 +1,19 @@
+import React, {useState} from 'react';
+
 import Player from './Player';
+import Team from '../Team/Team';
 
 const Players = (props) => {
 	const player = props.players;
+	const [team, setTeam] = useState([]);
+
 	const addPlayerBtn = (player) => {
-		console.log(player);
+		// console.log(player);
+		const myTeam = [...team, player];
+		setTeam(myTeam);
+		// console.log(team);
 	}
+	
 	return (
 		<div className="container mt-4">
 			<div className="row">
@@ -24,12 +33,7 @@ const Players = (props) => {
 				</div>
 
 				<div className="col-md-4 mt-3">
-					<div className="card">
-						<div className="card-body">
-							<h4>My Team</h4>
-							<p>Player Added : 0</p>
-						</div>
-					</div>
+					<Team team={team}></Team>
 				</div>
 			</div>
 		</div>

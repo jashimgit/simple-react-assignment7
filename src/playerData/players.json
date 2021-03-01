@@ -1,0 +1,120 @@
+[{
+      "id": "A1",
+      "picture": "https://i.ibb.co/WgLstLp/MSDhoni.jpg",
+      "name": "MS Dhoni",
+      "country": "India",
+      "salary": 150000000,
+      "playerType": "All Rounder",
+      "playerCode": "1"
+   },
+   {
+      "id": "A2",
+      "picture": "https://i.ibb.co/Nt1cDhS/Suresh-Raina1.jpg",
+      "name": "Suresh Raina",
+      "country": "India",
+      "salary": 110000000,
+      "playerType": "Batsman",
+      "playerCode": "2"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/b7GMGvy/Krishnappa-Gowtham.jpg",
+      "name": "Krishnappa Gowtham",
+      "country": "India",
+      "salary": 920000000,
+      "playerType": "All Rounder",
+      "playerCode": "3"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/C6YbGwF/Moeen-Ali1.jpg",
+      "name": "Moeen Ali",
+      "country": "India",
+      "salary": 70000000,
+      "playerType": "All Rounder",
+      "playerCode": "4"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/SxkTVB5/Ravindra-Jadeja1.jpg",
+      "name": "Ravindra Jadeja",
+      "country": "India",
+      "salary": 70000000,
+      "playerType": "All Rounder",
+      "playerCode": "5"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/YLcNmRV/Sam-Curran1.jpg",
+      "name": "Sam Curran",
+      "country": "England",
+      "salary": 55000000,
+      "playerType": "All Rounder",
+      "playerCode": "6"
+   },
+   {
+      "id": "A2",
+      "picture": "https://i.ibb.co/DfQYKpN/Rohit-Sharma1.jpg",
+      "name": "Rohit Sharma",
+      "country": "India",
+      "salary": 150000000,
+      "playerType": "Batsman",
+      "playerCode": "7"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/wYPH6JC/Kieron-Pollard1.jpg",
+      "name": "Kieron Pollard",
+      "country": "India",
+      "salary": 55000000,
+      "playerType": "All Rounder",
+      "playerCode": "8"
+   },
+   {
+      "id": "A2",
+      "picture": "https://i.ibb.co/XjwrtGt/Trent-Boult1.jpg",
+      "name": "Trent Boult",
+      "country": "India",
+      "salary": 55000000,
+      "playerType": "Bowler",
+      "playerCode": "21"
+   },
+   {
+      "id": "A2",
+      "picture": "https://i.ibb.co/XjwrtGt/Trent-Boult1.jpg",
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "salary": 32000000,
+      "playerType": "Bowler",
+      "playerCode": "11"
+   },
+   {
+      "id": "A2",
+      "picture": "https://i.ibb.co/XFgc81x/Adam-Milne1.jpg",
+      "name": "Adam Milne",
+      "country": "New Zealand",
+      "salary": 32000000,
+      "playerType": "Bowler",
+      "playerCode": "34"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/kKNyjxf/Glenn-Maxwell11.jpg",
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "salary": 142000000,
+      "playerType": "All Rounder",
+      "playerCode": "23"
+   },
+   {
+      "id": "A1",
+      "picture": "https://i.ibb.co/nP9wrsq/AB-de-Villiers1.jpg",
+      "name": "AB de Villiers",
+      "country": "South Africa",
+      "salary": 11000000,
+      "playerType": "All Rounder",
+      "playerCode": "45"
+   }
+]
+
+

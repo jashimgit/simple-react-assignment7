@@ -81,15 +81,6 @@
    },
    {
       "id": "A2",
-      "picture": "https://i.ibb.co/XjwrtGt/Trent-Boult1.jpg",
-      "name": "Trent Boult",
-      "country": "New Zealand",
-      "salary": 32000000,
-      "playerType": "Bowler",
-      "playerCode": "11"
-   },
-   {
-      "id": "A2",
       "picture": "https://i.ibb.co/XFgc81x/Adam-Milne1.jpg",
       "name": "Adam Milne",
       "country": "New Zealand",

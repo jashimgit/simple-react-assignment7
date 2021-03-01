@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 
 const Player = (props) => {
 
@@ -13,7 +14,7 @@ const Player = (props) => {
 					<h5 className="card-text">{name}</h5>
 					<p className="card-text">Player Type:<b> {playerType}</b></p>
 					<p className="card-text">Country : <b> {country} </b></p>
-					<p className="card-text"> Salary: <b>{salary}</b></p>
+					<p className="card-text"> Salary: <FontAwesomeIcon icon={faRupeeSign} /> <b> {salary}</b></p>
 					<button onClick={() => handleAddPlayer(props.player)} className="btn btn-primary">Add Player</button>
 				</div>
 			</div>

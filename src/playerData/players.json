@@ -114,6 +114,33 @@
       "salary": 11000000,
       "playerType": "All Rounder",
       "playerCode": "45"
+   },
+   {
+      "id": "A3",
+      "picture": "https://i.ibb.co/3vBVmnS/pat-cummins.png",
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "salary": 155000000,
+      "playerType": "Bowler",
+      "playerCode": "48"
+   },
+   {
+      "id": "A6",
+      "picture": "https://i.ibb.co/mBxTrrP/Sunil-Narine-2019-01-07-457.jpg",
+      "name": "Sunil Narine",
+      "country": "West Indies",
+      "salary": 125000000,
+      "playerType": "Bowler",
+      "playerCode": "49"
+   },
+   {
+      "id": "A4",
+      "picture": "https://i.ibb.co/VpDZ2wD/Andre-Russell-PTI.jpg",
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "salary": 85000000,
+      "playerType": "All Rounder",
+      "playerCode": "60"
    }
 ]
 
